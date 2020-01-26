@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
+body { 
+  background-color: #242943;
+}
+
+li, a {
+  font-family: "source Sans Pro", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+#header.alt.style {
+  background-color: #0e111f;
+}
+
+
+h1 {
+margin-right: auto;
+}
+
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+} 
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #0088a9;
+}
+
+header.major {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: auto;
+}
+
+html, body {
+  color: #ffffff;
+  font-family: "source Sans Pro", Helvetica, sans-serif;
+  font-size: 17pt;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  line-height: 1.65;
+  height: 100%;
+}
+
+p {
+  margin-left: 130px;
+  
+}
+
+ul.actions li {
+  margin-left: 130px;
+  list-style: none;
+}
+
+img {
+  margin-left: 130px;
+}
+
+#banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://upload.wikimedia.org/wikipedia/commons/2/24/Wyvern-programming-languages-in-one.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+.footer {
+  background-color: #0e111f;
+  color: #ffffff;
+  height: 400px;
+  position: relative;
+}
+
+
+.footer .footer-bottom {
+  background: #0e111f;
+  color: #ffffff;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+div.footer-content .major h2 {
+  margin-left: 450px;
+  justify-content: center;
+  text-align: center;
+  background-color: #0e111f;
+}
+
+#footer {
+  background-color: #0e111f;
+}
+
+#footer ul {
+  background-color: #0e111f;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-left: 500px;
+  list-style: none;
+}
+
+#footer li {
+  padding-right: 20px;
+}
+
+
+@media screen and (max-width: 1680px) {
+  body {
+    font-size: 14pt;
+  };
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    font-size:12pt;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    font-size: 11pt;
+  }
+
+  #header.alt.style {
+    display: flex;
+    float: inline-start;
+    
+  }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/*Portrait*/ 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/*Landscape*/ 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
